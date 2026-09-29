@@ -3,12 +3,10 @@ body {
   color: rgb(255, 255, 255, 0.4);
   font-family:sans-serif;
   display: block;
-  background-color: #759db0;
 }
 .game-wrapper {
 
 display: block;
-background-color: #1f4555;
 border-radius: 20px;
 
 }
