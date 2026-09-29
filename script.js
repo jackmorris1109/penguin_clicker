@@ -1,8 +1,3 @@
-const camera = document.getElementById("camera");
-navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
-  camera.srcObject = stream;
-});
-
 let penguin = 0;
 let clickPower = 1;
 let soundEnabled = false;
