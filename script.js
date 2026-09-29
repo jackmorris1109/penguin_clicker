@@ -6,7 +6,6 @@ const counter =
   document.getElementById("counter");
 const button =
   document.getElementById("penguinBtn");
-const penguinSound = new Audio("penguin.mp3");
 
 button.addEventListener("click",
   function() {
