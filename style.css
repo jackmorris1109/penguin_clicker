@@ -15,12 +15,31 @@ color: rgb(255, 255, 255);
 font-family: 'Segoe UI';
 }
 #penguinBtn {
-  border: black;
-  background: none;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border: none;
+  background: transparent;
+  overflow: hidden;
+  border-radius: 50%;
   cursor: pointer;
 }
 #penguinBtn img {
-  width: 300px;
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: 2;
+pointer-events: none;
+}
+#camera {
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: 1;
 }
 #shop {
   text-align: left;
@@ -52,13 +71,4 @@ font-family: 'Segoe UI';
   display: flex;       /* Places items side-by-side */
   gap: 10px;           /* Adds space between the buttons */
   align-items: center; /* Vertically aligns them */
-}
-#camera {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
 }
