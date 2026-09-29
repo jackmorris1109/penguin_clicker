@@ -19,6 +19,7 @@ font-family: 'Segoe UI';
   border: black;
   background: none;
   cursor: pointer;
+  touch-action: manipulation;
 }
 #penguinBtn img {
   width: 300px;
